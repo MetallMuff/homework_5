@@ -3,39 +3,6 @@
 // // которая покажет количество чётных чисел в массиве.
 // // [345, 897, 568, 234] -> 2
 
-/*
-Console.WriteLine("Введите количество трехзначных чисел в массиве (например 3 или 5)");
-int size = Convert.ToInt32(Console.ReadLine());
-int[] numbers = new int[size];
-addedNumbers (numbers);
-Console.WriteLine("Вот наш массив: ");
-PrintArray(numbers);
-int count = 0;
-
-for (int j = 0; j < numbers.Length; j++)
-if (numbers[j] % 2 == 0)
-count++;
-
-Console.WriteLine($"всего {numbers.Length} чисел, {count} из них чётные");
-
-void addedNumbers (int[] numbers)
-{
-    for(int i = 0; i < numbers.Length; i++)
-    {
-        numbers[i] = new Random().Next(100,1000);
-    }
-}
-void PrintArray(int[] numbers)
-{
-    Console.Write("[ ");
-    for(int i = 0; i < numbers.Length; i++)
-    {
-        Console.Write(numbers[i] + " ");
-    }
-    Console.Write("]");
-    Console.WriteLine();
-}
-*/
 
 //////////////Конец первой задачи /////////
 
@@ -77,3 +44,36 @@ void PrintArray(int[] numbers)
 // }
 
 //////////////////// Конец второй задачи ///////////////
+
+//Задача 38: Задайте массив вещественных чисел.
+// Найдите разницу между максимальным и минимальным элементов массива.
+// [3 7 22 2 78] -> 76
+
+
+// double[] array = new double[5];
+//   for (int i = 0; i < array.Length; i++ )
+//   {
+//     array[i] = new Random().Next(1, 100);
+//     Console.Write(array[i] + " ");
+//   }
+
+// double maxNumber = array[0];
+// double minNumber = array[0];
+
+//   for (int i = 1; i < array.Length; i++)
+//   {
+//     if (maxNumber < array[i])
+//     {
+//       maxNumber = array[i];
+//     }
+//         if (minNumber > array[i])
+//     {
+//       minNumber = array[i];
+//     }
+//   }
+
+//   double decision = maxNumber - minNumber;
+
+//   Console.WriteLine($"\nразница между между максимальным ({maxNumber}) и минимальным ({minNumber}) элементами равна: {decision}");
+
+///////////////// Конец третьей задачи ///////////
